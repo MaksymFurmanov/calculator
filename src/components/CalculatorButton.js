@@ -8,9 +8,9 @@ function CalculatorButton(props) {
     }
 
     return (
-        <div style={styles} className={"calculator-button"}>
+        <button style={styles} className={"calculator-button"}>
             <p className={signStyles}>{props.children}</p>
-        </div>
+        </button>
     )
 }
 
